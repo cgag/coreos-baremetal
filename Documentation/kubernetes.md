@@ -23,7 +23,7 @@ The [examples](../examples) statically assign IP addresses to libvirt client VMs
 
 Download the CoreOS image assets referenced in the target [profile](../examples/profiles).
 
-    ./scripts/get-coreos alpha 1053.2.0
+    ./scripts/get-coreos alpha 1053.2.0 ./examples/assets
 
 Generate a root CA and Kubernetes TLS assets for components (`admin`, `apiserver`, `worker`).
 
